@@ -1,6 +1,5 @@
 # Qacart
-on this project, I am building an automation test case for the TODO card website => *Qacart* for @Hatamleh
-
+in this project, I am building an automation test cases for the todo card website => *Qacart* [@eng.Hatem Hatamleh](https://github.com/Hatamleh) (Instructor)
 # <h3 align="left">💻-The main TestCases is :</h3><br>
 1- The user can log in with a valid email and password<br>
 2- The user can add a new TODO card<br>
