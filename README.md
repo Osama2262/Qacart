@@ -2,7 +2,7 @@
 on this project, I am building an automation test case for the TODO card website => *Qacart* for [@eng.Hatem Hatamleh]
 
 #<h2 align="left">The main TestCases is</h2>
-1- The user can log in with a valid email and password
+1- The user can log in with a valid email and password<br>
 2- The user can add a new TODO card
 3- The user can delete the TODO card successfully
 #<h2 align="left">The tools I used</h2>:
