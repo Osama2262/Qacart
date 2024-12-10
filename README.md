@@ -10,13 +10,14 @@ in this project, I am building an automation test cases for the todo card websit
 **1- Selenium with java(OOP)** <br>
 **2- TestNG**<br>
 **3- Page Object Model (POM) Design pattern**<br>
-**4- Rest assured library** <br>
-**5- javafaker to generate FakerData**<br>
-**6- Inject cookies into the browser**<br>
-**7- Allure-Report: to create an HTML report** <br>
-**8- Screenshots**<br>
-**9- CI/CD Integration with Git/GitHub actions**<br>
-**10- Run mvn command with CMD**
+**4 Builder pattern**
+**5- Rest assured library** <br>
+**6- javafaker to generate FakerData**<br>
+**7- Inject cookies into the browser**<br>
+**8- Allure-Report: to create an HTML report** <br>
+**9- Screenshots**<br>
+**10- CI/CD Integration with Git/GitHub actions**<br>
+**11- Run mvn command with CMD**
 
 
 
