@@ -1,0 +1,16 @@
+name: run Selenium test
+
+on:
+  push:
+    branches:["master"]
+jobs:
+  test:
+    runs-on: Windows 10
+    steps:
+        - uses: actions/checkout@v4
+        - uses: actions/setup-java@v3
+          with:
+             java-version: lts/*
+             cache: maven
+        - uses: browser-actions/setup-chrome@latest
+        - run: mvn clean test

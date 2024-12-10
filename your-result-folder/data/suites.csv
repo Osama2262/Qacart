@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2298","User are able to login with a valid values","Surefire suite","Mon Dec 09 09:54:57 EET 2024","passed","Mon Dec 09 09:55:00 EET 2024","Testcases.LoginTest","Surefire test","Testcases.LoginTest","UserCanLogin"
+"","0","shutdown","Surefire suite","Mon Dec 09 09:55:05 EET 2024","broken","Mon Dec 09 09:55:05 EET 2024","Testcases.ToDoTest","Surefire test","Testcases.ToDoTest","shutdown"
+"","7543"," User are able to delete the TODO card successfully","Surefire suite","Mon Dec 09 09:54:57 EET 2024","broken","Mon Dec 09 09:55:05 EET 2024","Testcases.ToDoTest","Surefire test","Testcases.ToDoTest","ableToDeleteToDo"
+"","7465"," User are able to add a new TODO card ","Surefire suite","Mon Dec 09 09:54:57 EET 2024","broken","Mon Dec 09 09:55:05 EET 2024","Testcases.ToDoTest","Surefire test","Testcases.ToDoTest","AddNewTODo"
