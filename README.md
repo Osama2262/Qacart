@@ -10,7 +10,7 @@ in this project, I am building an automation test cases for the todo card websit
 **1- Selenium with java(OOP)** <br>
 **2- TestNG**<br>
 **3- Page Object Model (POM) Design pattern**<br>
-**4 Builder pattern**
+**4 Builder pattern**<br>
 **5- Rest assured library** <br>
 **6- javafaker to generate FakerData**<br>
 **7- Inject cookies into the browser**<br>
