@@ -1,5 +1,4 @@
-name: run Selenium test
-
+name: Run Selenium test
 on:
   push:
     branches:["main"]
@@ -10,7 +9,7 @@ jobs:
         - uses: actions/checkout@v4
         - uses: actions/setup-java@v3
           with:
-             java-version: lts/*
+             java-version: "23"
              cache: maven
              distribution: "temurin"
         - uses: browser-actions/setup-chrome@latest
