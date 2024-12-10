@@ -1,4 +1,6 @@
-# Qacart
+
+![Qacart](https://github.com/user-attachments/assets/c1777d4f-2c0e-46fd-8a79-e25a79959690)
+# Qacart-Project
 in this project, I am building an automation test cases for the todo card website => *Qacart* [@eng.Hatem Hatamleh](https://github.com/Hatamleh) (Instructor)
 # <h3 align="left">💻-The main TestCases is :</h3><br>
 1- The user can log in with a valid email and password<br>
