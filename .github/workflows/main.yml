@@ -2,7 +2,7 @@ name: run Selenium test
 
 on:
   push:
-    branches:["master"]
+    branches:["main"]
 jobs:
   test:
     runs-on: Windows 10
