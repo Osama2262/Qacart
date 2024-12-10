@@ -13,9 +13,10 @@ in this project, I am building an automation test cases for the todo card websit
 **4- Rest assured library** <br>
 **5- javafaker to generate FakerData**<br>
 **6- Inject cookies into the browser**<br>
-**7- Allure-Report** <br>
+**7- Allure-Report: to create an HTML report** <br>
 **8- Screenshots**<br>
-**9- CI/CD Integration with Git/GitHub actions**
+**9- CI/CD Integration with Git/GitHub actions**<br>
+**10- Run mvn command with CMD**
 
 
 
