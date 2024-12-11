@@ -3,21 +3,16 @@ package Testcases;
 import API.RegisterAPI;
 import API.TaskAPI;
 import Base.BaseTest;
-import Objects.Task;
-import Pages.LoginPage;
 import Pages.NewToDoPage;
 import Pages.ToDoPage;
-import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
-import org.checkerframework.checker.units.qual.N;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import utils.CookieUtils;
 @Feature("TODO Features")
 public class ToDoTest extends BaseTest {
 
     @Test(description = " User are able to add a new TODO card ")
-    public void AddNewTODo() throws InterruptedException {
+    public void AddNewTODo() {
 
         RegisterAPI registerAPI =new RegisterAPI();
         registerAPI.Register();
@@ -37,7 +32,7 @@ public class ToDoTest extends BaseTest {
     }
 
     @Test (description = " User are able to delete the TODO card successfully")
-    public void ableToDeleteToDo() throws InterruptedException {
+    public void ableToDeleteToDo(){
 
         NewToDoPage newToDoPage = new NewToDoPage(getDriver());
         RegisterAPI registerAPI = new RegisterAPI();
