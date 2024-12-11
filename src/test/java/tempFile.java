@@ -1,5 +1,4 @@
 import API.RegisterAPI;
-import Objects.User;
 
 public class tempFile
 {
