@@ -1,7 +1,7 @@
 import API.RegisterAPI;
 import Objects.User;
 
-public class forTest
+public class tempFile
 {
     public static void main(String[] args) {
         RegisterAPI register= new RegisterAPI();
