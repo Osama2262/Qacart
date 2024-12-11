@@ -7,6 +7,7 @@ import Objects.Task;
 import Pages.LoginPage;
 import Pages.NewToDoPage;
 import Pages.ToDoPage;
+import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
 import org.checkerframework.checker.units.qual.N;
 import org.testng.Assert;
@@ -54,6 +55,18 @@ public class ToDoTest extends BaseTest {
                 .clickToCreate();
                 toDoPage.deleteToDo();
         Assert.assertTrue(toDoPage.NoAvailableTodos());
+    }
+    @Test(description =" User are able to logout from his account")
+    public void ableToLogOut()  {
+        LoginPage loginPage = new LoginPage(getDriver());
+        loginPage.load();
+        RegisterAPI registerAPI =new RegisterAPI();
+        registerAPI.Register();
+        injectCookies(registerAPI.getRestAssuredCookies());
+        NewToDoPage newToDoPage = new NewToDoPage(getDriver());
+        newToDoPage.load_NewToDoPage();
+        ToDoPage toDoPage = new ToDoPage(getDriver());
+        toDoPage.logout_button();
     }
 
 }

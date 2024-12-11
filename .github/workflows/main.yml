@@ -1,16 +1,16 @@
-name: run Selenium test
-
+name: Run Selenium test
 on:
   push:
-    branches:["master"]
+    branches:
+      - main
 jobs:
   test:
-    runs-on: Windows 10
+    runs-on: macos-latest
     steps:
         - uses: actions/checkout@v4
         - uses: actions/setup-java@v3
           with:
-             java-version: lts/*
+             java-version: "23"
              cache: maven
              distribution: "temurin"
         - uses: browser-actions/setup-chrome@latest
