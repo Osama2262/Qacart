@@ -20,6 +20,7 @@ public class ToDoPage extends BasePage {
     private final By welcomeMessage = By.cssSelector("[data-testid=\"welcome\"]");
     private final By NoTodos = By.cssSelector("[data-testid=\"no-todos\"]");
     private final By DeleteIcon = By.cssSelector("[data-testid=\"delete\"]");
+    private  final By logout_button = By.xpath("//span[contains(.,'Logout')]");
 
 
     //TODO: Create a checkWelcome method
@@ -34,16 +35,18 @@ public class ToDoPage extends BasePage {
     public boolean NoAvailableTodos()   {
         return driver.findElement(NoTodos).isDisplayed();
     }
+    @Step
+    public void logout_button(){
+        driver.findElement(logout_button).click();
+    }
 
 
 
 
     //TODO: Create a Delete method
     @Step
-    public void deleteToDo() throws InterruptedException {
+    public void deleteToDo()  {
         driver.findElement(DeleteIcon).click();
-       // Thread.sleep(2000);
-
     }
     
 
