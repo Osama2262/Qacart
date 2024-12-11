@@ -7,12 +7,12 @@ Pages\ToDoPage.class
 API\RegisterAPI.class
 config\EndPoint.class
 Base\BasePage.class
-forTest.class
 Pages\NewToDoPage.class
 utils\CookieUtils.class
 Factory\DriverFactory.class
 Pages\LoginPage.class
 Objects\User.class
+tempFile.class
 Testcases\LoginTest.class
 Testcases\ToDoTest.class
 API\TaskAPI.class

@@ -1,7 +1,9 @@
 package Testcases;
 
+import API.RegisterAPI;
 import Base.BaseTest;
 import Pages.LoginPage;
+import Pages.NewToDoPage;
 import Pages.ToDoPage;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
@@ -19,5 +21,17 @@ public class LoginTest extends BaseTest {
 
         Assert.assertTrue(toDoPage.checkWelcome());
         Assert.assertTrue(toDoPage.NoAvailableTodos());
+    }
+    @Test(description =" User are able to logout from his account")
+    public void ableToLogOut()  {
+        LoginPage loginPage = new LoginPage(getDriver());
+        loginPage.load();
+        RegisterAPI registerAPI =new RegisterAPI();
+        registerAPI.Register();
+        injectCookies(registerAPI.getRestAssuredCookies());
+        NewToDoPage newToDoPage = new NewToDoPage(getDriver());
+        newToDoPage.load_NewToDoPage();
+        ToDoPage toDoPage = new ToDoPage(getDriver());
+        toDoPage.logout_button();
     }
 }

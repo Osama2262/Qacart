@@ -1,6 +1,7 @@
 package Base;
 
 import Factory.DriverFactory;
+import io.qameta.allure.Allure;
 import io.restassured.http.Cookie;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -14,7 +15,9 @@ import org.testng.annotations.BeforeTest;
 import utils.CookieUtils;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.time.Duration;
 import java.util.List;
 
@@ -48,16 +51,17 @@ public class BaseTest {
         getDriver().quit();
         Thread.sleep(600);
     }
+
     public void takeScreenShot(String destFile)
     {
         File file = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
         try {
             FileUtils.copyFile(file, new File(destFile));
+            InputStream is = new FileInputStream(destFile);
+            Allure.addAttachment("screenshot", is);
         } catch (IOException e)
         {
             throw new RuntimeException(e);
-        }
-        {
         }
     }
 

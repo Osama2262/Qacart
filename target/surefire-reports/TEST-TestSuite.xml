@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="15.174" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="15.995" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
-    <property name="webdriver.chrome.driver" value="C:\Users\kande\.cache\selenium\chromedriver\win64\131.0.6778.87\chromedriver.exe"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\kande\.cache\selenium\chromedriver\win64\131.0.6778.108\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\programming\Software Testing\Test Automation\Qacart\target\test-classes;D:\programming\Software Testing\Test Automation\Qacart\target\classes;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\kande\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\kande\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\kande\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\kande\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\kande\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\kande\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\kande\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\kande\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\kande\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\kande\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\kande\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\kande\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\kande\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\kande\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\kande\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\kande\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\kande\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\kande\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\kande\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\kande\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\kande\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\kande\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\kande\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\kande\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\kande\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\kande\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\kande\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\kande\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\kande\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\kande\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\kande\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\kande\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\kande\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\kande\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\kande\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\kande\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\kande\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\kande\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\kande\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\kande\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\kande\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\kande\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\kande\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\kande\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\kande\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\kande\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\kande\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\kande\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\kande\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\kande\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\kande\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\kande\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\kande\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\kande\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\kande\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\kande\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\kande\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\kande\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;"/>
+    <property name="java.class.path" value="D:\programming\Software Testing\Test Automation\Qacart-Selenium-Framework\target\test-classes;D:\programming\Software Testing\Test Automation\Qacart-Selenium-Framework\target\classes;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\kande\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\kande\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\kande\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\kande\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\kande\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\kande\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\kande\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\kande\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\kande\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\kande\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\kande\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\kande\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\kande\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\kande\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\kande\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\kande\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\kande\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\kande\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\kande\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\kande\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\kande\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\kande\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\kande\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\kande\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\kande\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\kande\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\kande\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\kande\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\kande\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\kande\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\kande\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\kande\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\kande\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\kande\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\kande\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\kande\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\kande\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\kande\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\kande\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\kande\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\kande\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\kande\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\kande\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\kande\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\kande\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\kande\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\kande\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\kande\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\kande\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\kande\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\kande\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\kande\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\kande\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\kande\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\kande\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\kande\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\kande\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\kande\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -16,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\kande\AppData\Local\Temp\surefire3404135407266506454\surefirebooter-20241210180644973_3.jar C:\Users\kande\AppData\Local\Temp\surefire3404135407266506454 2024-12-10T18-06-44_871-jvmRun1 surefire-20241210180644973_1tmp surefire_0-20241210180644973_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\kande\AppData\Local\Temp\surefire7907499545089758839\surefirebooter-20241211134146166_3.jar C:\Users\kande\AppData\Local\Temp\surefire7907499545089758839 2024-12-11T13-41-46_072-jvmRun1 surefire-20241211134146166_1tmp surefire_0-20241211134146166_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\programming\Software Testing\Test Automation\Qacart\target\test-classes;D:\programming\Software Testing\Test Automation\Qacart\target\classes;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\kande\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\kande\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\kande\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\kande\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\kande\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\kande\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\kande\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\kande\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\kande\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\kande\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\kande\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\kande\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\kande\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\kande\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\kande\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\kande\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\kande\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\kande\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\kande\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\kande\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\kande\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\kande\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\kande\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\kande\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\kande\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\kande\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\kande\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\kande\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\kande\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\kande\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\kande\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\kande\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\kande\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\kande\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\kande\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\kande\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\kande\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\kande\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\kande\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\kande\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\kande\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\kande\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\kande\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\kande\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\kande\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\kande\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\kande\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\kande\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\kande\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\kande\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\kande\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\kande\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\kande\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\kande\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\kande\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\kande\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\kande\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\kande\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;"/>
+    <property name="surefire.test.class.path" value="D:\programming\Software Testing\Test Automation\Qacart-Selenium-Framework\target\test-classes;D:\programming\Software Testing\Test Automation\Qacart-Selenium-Framework\target\classes;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\kande\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\kande\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\kande\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\kande\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\kande\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\kande\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\kande\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\kande\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\kande\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\kande\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\kande\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\kande\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\kande\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\kande\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\kande\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\kande\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\kande\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\kande\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\kande\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\kande\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\kande\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\kande\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\kande\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\kande\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\kande\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\kande\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\kande\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\kande\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\kande\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\kande\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\kande\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\kande\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\kande\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\kande\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\kande\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\kande\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\kande\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\kande\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\kande\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\kande\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\kande\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\kande\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\kande\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\kande\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\kande\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\kande\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\kande\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\kande\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\kande\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\kande\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\kande\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\kande\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\kande\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\kande\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\kande\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\kande\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\kande\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\kande\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\kande\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\kande\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\kande"/>
     <property name="user.language" value="en"/>
@@ -26,12 +26,12 @@
     <property name="java.version.date" value="2024-10-15"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="D:\programming\Software Testing\Test Automation\Qacart"/>
+    <property name="basedir" value="D:\programming\Software Testing\Test Automation\Qacart-Selenium-Framework"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\kande\AppData\Local\Temp\surefire3404135407266506454\surefirebooter-20241210180644973_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\kande\AppData\Local\Temp\surefire7907499545089758839\surefirebooter-20241211134146166_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.1+11-39"/>
@@ -47,7 +47,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\kande\AppData\Local\Temp\"/>
     <property name="java.version" value="23.0.1"/>
-    <property name="user.dir" value="D:\programming\Software Testing\Test Automation\Qacart"/>
+    <property name="user.dir" value="D:\programming\Software Testing\Test Automation\Qacart-Selenium-Framework"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -60,146 +60,169 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="UserCanLogin" classname="Testcases.LoginTest" time="2.34">
+  <testcase name="UserCanLogin" classname="Testcases.LoginTest" time="2.334">
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="AddNewTODo" classname="Testcases.ToDoTest" time="6.328">
+  <testcase name="ableToLogOut" classname="Testcases.LoginTest" time="2.828">
     <system-out><![CDATA[HTTP/1.1 201 Created
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1733846783&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=8INBfz58mve9%2B8bApV%2BejscK4oa4FPisxiwuNDzAarA%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1733846783&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=8INBfz58mve9%2B8bApV%2BejscK4oa4FPisxiwuNDzAarA%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1733917284&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=RnSfehF5mtbKPCLJyv3qbrElXPP%2BX2bgLF3jcG2NXHI%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1733917284&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=RnSfehF5mtbKPCLJyv3qbrElXPP%2BX2bgLF3jcG2NXHI%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
-Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NTg2NmZmNDRiNjJhMDAxNDU5NDFhMSIsImZpcnN0TmFtZSI6IkxpbmRhIiwibGFzdE5hbWUiOiJIYWxleSIsImlhdCI6MTczMzg0Njc4NH0.uZLQfCDZdKaqi2pavZdh7M7CWJEXzy2XiPXG0FtLCJA; Path=/
-Set-Cookie: userID=j%3A%22675866ff44b62a00145941a1%22; Path=/
-Set-Cookie: firstName=Linda; Path=/
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NTk3YTY0NWZhOWQzMDAxNGE2ZmIyZiIsImZpcnN0TmFtZSI6IkhlbGVuIiwibGFzdE5hbWUiOiJDdW1taW5ncyIsImlhdCI6MTczMzkxNzI4NH0.FYo7aC4jfYCGt7goUa5GbEEkTjqJjsmK6dVAu2Jg_bQ; Path=/
+Set-Cookie: userID=j%3A%2267597a645fa9d30014a6fb2f%22; Path=/
+Set-Cookie: firstName=Helen; Path=/
 Content-Type: application/json; charset=utf-8
-Content-Length: 275
-Etag: W/"113-dlF0tbBV9jSyLzMap4rvNGTTBGM"
-Date: Tue, 10 Dec 2024 16:06:24 GMT
+Content-Length: 279
+Etag: W/"117-3elrXHZzr09R3uPYWwELKRGrOv4"
+Date: Wed, 11 Dec 2024 11:41:24 GMT
 Via: 1.1 vegur
 
 {
-    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NTg2NmZmNDRiNjJhMDAxNDU5NDFhMSIsImZpcnN0TmFtZSI6IkxpbmRhIiwibGFzdE5hbWUiOiJIYWxleSIsImlhdCI6MTczMzg0Njc4NH0.uZLQfCDZdKaqi2pavZdh7M7CWJEXzy2XiPXG0FtLCJA",
-    "userID": "675866ff44b62a00145941a1",
-    "firstName": "Linda"
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NTk3YTY0NWZhOWQzMDAxNGE2ZmIyZiIsImZpcnN0TmFtZSI6IkhlbGVuIiwibGFzdE5hbWUiOiJDdW1taW5ncyIsImlhdCI6MTczMzkxNzI4NH0.FYo7aC4jfYCGt7goUa5GbEEkTjqJjsmK6dVAu2Jg_bQ",
+    "userID": "67597a645fa9d30014a6fb2f",
+    "firstName": "Helen"
 }
 HTTP/1.1 201 Created
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1733846784&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=pY7y0dKKMuOiygVcXf2zzLxPk4yuP8Nko2J%2BjmNt9jQ%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1733846784&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=pY7y0dKKMuOiygVcXf2zzLxPk4yuP8Nko2J%2BjmNt9jQ%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1733917285&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=rJkldd2CZebEa2JHLDRXecnkJi8Io4haBvYDMVnvzQI%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1733917285&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=rJkldd2CZebEa2JHLDRXecnkJi8Io4haBvYDMVnvzQI%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
-Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NTg2NzAxNDRiNjJhMDAxNDU5NDFhNSIsImZpcnN0TmFtZSI6IkphbmV5IiwibGFzdE5hbWUiOiJMZXNjaCIsImlhdCI6MTczMzg0Njc4NX0.qw2O3tGBb3-otO2xwCwRcMJSIlcazms8kdpmWCZlJd8; Path=/
-Set-Cookie: userID=j%3A%226758670144b62a00145941a5%22; Path=/
-Set-Cookie: firstName=Janey; Path=/
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NTk3YTY1NWZhOWQzMDAxNGE2ZmIzMyIsImZpcnN0TmFtZSI6IkxvcnkiLCJsYXN0TmFtZSI6IkJhcnJvd3MiLCJpYXQiOjE3MzM5MTcyODV9.SFGsyXDetXtWdyFaOG6512pCmFK1UAXd8wQ3zgh-Vbg; Path=/
+Set-Cookie: userID=j%3A%2267597a655fa9d30014a6fb33%22; Path=/
+Set-Cookie: firstName=Lory; Path=/
 Content-Type: application/json; charset=utf-8
 Content-Length: 275
-Etag: W/"113-54rQoZBtJhtf5o6omNoTKr/+bB8"
-Date: Tue, 10 Dec 2024 16:06:25 GMT
+Etag: W/"113-2hIjwcvve4Loyb0gsr4GYPifBwk"
+Date: Wed, 11 Dec 2024 11:41:25 GMT
 Via: 1.1 vegur
 
 {
-    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NTg2NzAxNDRiNjJhMDAxNDU5NDFhNSIsImZpcnN0TmFtZSI6IkphbmV5IiwibGFzdE5hbWUiOiJMZXNjaCIsImlhdCI6MTczMzg0Njc4NX0.qw2O3tGBb3-otO2xwCwRcMJSIlcazms8kdpmWCZlJd8",
-    "userID": "6758670144b62a00145941a5",
-    "firstName": "Janey"
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NTk3YTY1NWZhOWQzMDAxNGE2ZmIzMyIsImZpcnN0TmFtZSI6IkxvcnkiLCJsYXN0TmFtZSI6IkJhcnJvd3MiLCJpYXQiOjE3MzM5MTcyODV9.SFGsyXDetXtWdyFaOG6512pCmFK1UAXd8wQ3zgh-Vbg",
+    "userID": "67597a655fa9d30014a6fb33",
+    "firstName": "Lory"
 }
 HTTP/1.1 201 Created
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1733846785&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=pzBEGEfeJk0elS5JEJ3Hy7QgcnT%2BRR09uX1gaIwUJJM%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1733846785&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=pzBEGEfeJk0elS5JEJ3Hy7QgcnT%2BRR09uX1gaIwUJJM%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1733917286&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=AkjWBxx9UrZsBLbTWiyurkY3NnKyOHZ%2BvJmqCrBqbUE%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1733917286&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=AkjWBxx9UrZsBLbTWiyurkY3NnKyOHZ%2BvJmqCrBqbUE%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 153
-Etag: W/"99-fjtlNfYfe6DaKtlNL4w2H8l+e58"
-Date: Tue, 10 Dec 2024 16:06:25 GMT
+Etag: W/"99-y9w+WA3wW0tPa8G0x9mGQXf2rIc"
+Date: Wed, 11 Dec 2024 11:41:26 GMT
 Via: 1.1 vegur
 
 {
     "isCompleted": false,
-    "_id": "6758670144b62a00145941a7",
+    "_id": "67597a665fa9d30014a6fb35",
     "item": "newOne",
-    "userID": "675866ff44b62a00145941a1",
-    "createdAt": "2024-12-10T16:06:25.644Z",
+    "userID": "67597a645fa9d30014a6fb2f",
+    "createdAt": "2024-12-11T11:41:26.095Z",
     "__v": 0
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1733917287&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=uiVngz6nfPaRtZGoE754Ez%2FoMYnhgzqVIPCo7JTAx1s%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1733917287&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=uiVngz6nfPaRtZGoE754Ez%2FoMYnhgzqVIPCo7JTAx1s%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NTk3YTY4NWZhOWQzMDAxNGE2ZmIzOCIsImZpcnN0TmFtZSI6Ik90dG8iLCJsYXN0TmFtZSI6IkRvbm5lbGx5IiwiaWF0IjoxNzMzOTE3Mjg4fQ.pTwG3p_IZfZ4XuqfLjqX9yryvlrNPA7ip07W2JDUKvk; Path=/
+Set-Cookie: userID=j%3A%2267597a685fa9d30014a6fb38%22; Path=/
+Set-Cookie: firstName=Otto; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 277
+Etag: W/"115-4U9AWhIY8oraZFR9PW3JuTt6TXs"
+Date: Wed, 11 Dec 2024 11:41:28 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NTk3YTY4NWZhOWQzMDAxNGE2ZmIzOCIsImZpcnN0TmFtZSI6Ik90dG8iLCJsYXN0TmFtZSI6IkRvbm5lbGx5IiwiaWF0IjoxNzMzOTE3Mjg4fQ.pTwG3p_IZfZ4XuqfLjqX9yryvlrNPA7ip07W2JDUKvk",
+    "userID": "67597a685fa9d30014a6fb38",
+    "firstName": "Otto"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="ableToDeleteToDo" classname="Testcases.ToDoTest" time="4.481">
+  <testcase name="AddNewTODo" classname="Testcases.ToDoTest" time="3.067"/>
+  <testcase name="ableToDeleteToDo" classname="Testcases.ToDoTest" time="4.418">
     <system-out><![CDATA[HTTP/1.1 201 Created
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1733846789&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=V2xt3uclXkrrF0nqIHUFCrF79n%2Bwbard6LOX7a%2BOLcE%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1733846789&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=V2xt3uclXkrrF0nqIHUFCrF79n%2Bwbard6LOX7a%2BOLcE%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1733917291&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=H%2BWzvxBzkCJIh6WJCF3YcRwe%2BtdxWFhOh8Nqgz794jE%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1733917291&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=H%2BWzvxBzkCJIh6WJCF3YcRwe%2BtdxWFhOh8Nqgz794jE%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
-Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NTg2NzA2NDRiNjJhMDAxNDU5NDFhZSIsImZpcnN0TmFtZSI6IkNsZXZlbGFuZCIsImxhc3ROYW1lIjoiS2F1dHplciIsImlhdCI6MTczMzg0Njc5MH0.n80IPzZpsKPwB1BbaONXCT2cp_3sKJgXUoHibvXseME; Path=/
-Set-Cookie: userID=j%3A%226758670644b62a00145941ae%22; Path=/
-Set-Cookie: firstName=Cleveland; Path=/
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NTk3YTZiNWZhOWQzMDAxNGE2ZmI0MCIsImZpcnN0TmFtZSI6IlRodXJtYW4iLCJsYXN0TmFtZSI6IldhdHNpY2EiLCJpYXQiOjE3MzM5MTcyOTF9.X67AoTfYy6gkHaBv6eHg4Ubn_EhybsHD3swKxBF9Kt4; Path=/
+Set-Cookie: userID=j%3A%2267597a6b5fa9d30014a6fb40%22; Path=/
+Set-Cookie: firstName=Thurman; Path=/
 Content-Type: application/json; charset=utf-8
-Content-Length: 287
-Etag: W/"11f-f3ldKPjXdrOPfr87XqZanGNK8+Y"
-Date: Tue, 10 Dec 2024 16:06:30 GMT
+Content-Length: 282
+Etag: W/"11a-EnpQ5yyPgvqGFaGEx15fuTHuY/4"
+Date: Wed, 11 Dec 2024 11:41:31 GMT
 Via: 1.1 vegur
 
 {
-    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NTg2NzA2NDRiNjJhMDAxNDU5NDFhZSIsImZpcnN0TmFtZSI6IkNsZXZlbGFuZCIsImxhc3ROYW1lIjoiS2F1dHplciIsImlhdCI6MTczMzg0Njc5MH0.n80IPzZpsKPwB1BbaONXCT2cp_3sKJgXUoHibvXseME",
-    "userID": "6758670644b62a00145941ae",
-    "firstName": "Cleveland"
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NTk3YTZiNWZhOWQzMDAxNGE2ZmI0MCIsImZpcnN0TmFtZSI6IlRodXJtYW4iLCJsYXN0TmFtZSI6IldhdHNpY2EiLCJpYXQiOjE3MzM5MTcyOTF9.X67AoTfYy6gkHaBv6eHg4Ubn_EhybsHD3swKxBF9Kt4",
+    "userID": "67597a6b5fa9d30014a6fb40",
+    "firstName": "Thurman"
 }
 HTTP/1.1 201 Created
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1733846790&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=oH2ttGdXIfS7ZzMj1q6TyFuD3Th7Vbpg%2FK61MSKacck%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1733846790&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=oH2ttGdXIfS7ZzMj1q6TyFuD3Th7Vbpg%2FK61MSKacck%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1733917291&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=H%2BWzvxBzkCJIh6WJCF3YcRwe%2BtdxWFhOh8Nqgz794jE%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1733917291&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=H%2BWzvxBzkCJIh6WJCF3YcRwe%2BtdxWFhOh8Nqgz794jE%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
-Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NTg2NzA2NDRiNjJhMDAxNDU5NDFiMSIsImZpcnN0TmFtZSI6IlJhbmRvbHBoIiwibGFzdE5hbWUiOiJLaXJsaW4iLCJpYXQiOjE3MzM4NDY3OTB9.j1mMFhCGLGhyhojE79ymo56W-TEbA08Kyc1HeswSD_Y; Path=/
-Set-Cookie: userID=j%3A%226758670644b62a00145941b1%22; Path=/
-Set-Cookie: firstName=Randolph; Path=/
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NTk3YTZiNWZhOWQzMDAxNGE2ZmI0MyIsImZpcnN0TmFtZSI6IkNvbGJ5IiwibGFzdE5hbWUiOiJSb3NlbmJhdW0iLCJpYXQiOjE3MzM5MTcyOTF9.JUshjXZww2eBPDR7LxcpC3IjhehOZRQW1FMTkQogk9k; Path=/
+Set-Cookie: userID=j%3A%2267597a6b5fa9d30014a6fb43%22; Path=/
+Set-Cookie: firstName=Colby; Path=/
 Content-Type: application/json; charset=utf-8
-Content-Length: 283
-Etag: W/"11b-jvZXWabi97wY1wVvyHfIfZI9Yps"
-Date: Tue, 10 Dec 2024 16:06:30 GMT
+Content-Length: 280
+Etag: W/"118-eg1dQMkUJ0p9k8vdR1zVEjA0/8Q"
+Date: Wed, 11 Dec 2024 11:41:31 GMT
 Via: 1.1 vegur
 
 {
-    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NTg2NzA2NDRiNjJhMDAxNDU5NDFiMSIsImZpcnN0TmFtZSI6IlJhbmRvbHBoIiwibGFzdE5hbWUiOiJLaXJsaW4iLCJpYXQiOjE3MzM4NDY3OTB9.j1mMFhCGLGhyhojE79ymo56W-TEbA08Kyc1HeswSD_Y",
-    "userID": "6758670644b62a00145941b1",
-    "firstName": "Randolph"
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NTk3YTZiNWZhOWQzMDAxNGE2ZmI0MyIsImZpcnN0TmFtZSI6IkNvbGJ5IiwibGFzdE5hbWUiOiJSb3NlbmJhdW0iLCJpYXQiOjE3MzM5MTcyOTF9.JUshjXZww2eBPDR7LxcpC3IjhehOZRQW1FMTkQogk9k",
+    "userID": "67597a6b5fa9d30014a6fb43",
+    "firstName": "Colby"
 }
 HTTP/1.1 201 Created
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1733846791&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=ORtnb%2FRWoibGz5O4YuEEYN%2BJa0Alt%2FlqtLbcJVrtDK8%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1733846791&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=ORtnb%2FRWoibGz5O4YuEEYN%2BJa0Alt%2FlqtLbcJVrtDK8%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1733917292&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=7kiD%2F5Wq2wLtySFIiLerUWnONfINxjmfyfzf1OStwUY%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1733917292&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&s=7kiD%2F5Wq2wLtySFIiLerUWnONfINxjmfyfzf1OStwUY%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 153
-Etag: W/"99-s2zFWllb3Nfw/manIpQrQNX/i8A"
-Date: Tue, 10 Dec 2024 16:06:31 GMT
+Etag: W/"99-LkrH2e1AenplO5KG9WGe/lIPohM"
+Date: Wed, 11 Dec 2024 11:41:32 GMT
 Via: 1.1 vegur
 
 {
     "isCompleted": false,
-    "_id": "6758670744b62a00145941b3",
+    "_id": "67597a6c5fa9d30014a6fb45",
     "item": "newOne",
-    "userID": "6758670644b62a00145941ae",
-    "createdAt": "2024-12-10T16:06:31.222Z",
+    "userID": "67597a6b5fa9d30014a6fb40",
+    "createdAt": "2024-12-11T11:41:32.468Z",
     "__v": 0
 }
 ]]></system-out>
