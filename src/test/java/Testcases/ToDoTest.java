@@ -9,6 +9,7 @@ import io.qameta.allure.Feature;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 @Feature("TODO Features")
+
 public class ToDoTest extends BaseTest {
 
     @Test(description = " User are able to add a new TODO card ")

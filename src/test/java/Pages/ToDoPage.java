@@ -4,11 +4,6 @@ import Base.BasePage;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
-import utils.ConfigUtils;
 
 public class ToDoPage extends BasePage {
 
@@ -41,13 +36,16 @@ public class ToDoPage extends BasePage {
     }
 
 
-
-
     //TODO: Create a Delete method
     @Step
     public void deleteToDo()  {
         driver.findElement(DeleteIcon).click();
     }
-    
 
+    //TODO: get_CurrentURL
+    @Step
+    public String  get_CurrentURL()
+    {
+        return driver.getCurrentUrl();
+    }
 }

@@ -2,43 +2,43 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-11T13:41:46 EET" name="Surefire suite" finished-at="2024-12-11T13:42:02 EET" duration-ms="15451">
+  <suite started-at="2024-12-11T14:31:18 EET" name="Surefire suite" finished-at="2024-12-11T14:31:44 EET" duration-ms="26366">
     <groups>
     </groups>
-    <test started-at="2024-12-11T13:41:46 EET" name="Surefire test" finished-at="2024-12-11T13:42:02 EET" duration-ms="15451">
+    <test started-at="2024-12-11T14:31:18 EET" name="Surefire test" finished-at="2024-12-11T14:31:44 EET" duration-ms="26366">
       <class name="Testcases.ToDoTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.ToDoTest@5afa3c9]" started-at="2024-12-11T13:41:46 EET" name="setup" finished-at="2024-12-11T13:41:48 EET" duration-ms="1499" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.ToDoTest@d737b89]" started-at="2024-12-11T14:31:30 EET" name="setup" finished-at="2024-12-11T14:31:30 EET" duration-ms="928" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="AddNewTODo()[pri:0, instance:Testcases.ToDoTest@5afa3c9]" started-at="2024-12-11T13:41:48 EET" name="AddNewTODo" description=" User are able to add a new TODO card " finished-at="2024-12-11T13:41:55 EET" duration-ms="6886" status="PASS">
+        <test-method signature="AddNewTODo()[pri:0, instance:Testcases.ToDoTest@d737b89]" started-at="2024-12-11T14:31:30 EET" name="AddNewTODo" description=" User are able to add a new TODO card " finished-at="2024-12-11T14:31:35 EET" duration-ms="4558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddNewTODo -->
-        <test-method is-config="true" signature="shutdown(org.testng.ITestResult)[pri:0, instance:Testcases.ToDoTest@5afa3c9]" started-at="2024-12-11T13:41:55 EET" name="shutdown" finished-at="2024-12-11T13:41:56 EET" duration-ms="840" status="PASS">
+        <test-method is-config="true" signature="shutdown(org.testng.ITestResult)[pri:0, instance:Testcases.ToDoTest@d737b89]" started-at="2024-12-11T14:31:35 EET" name="shutdown" finished-at="2024-12-11T14:31:36 EET" duration-ms="900" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=AddNewTODo status=SUCCESS method=ToDoTest.AddNewTODo()[pri:0, instance:Testcases.ToDoTest@5afa3c9] output={null}]]]>
+                <![CDATA[[TestResult name=AddNewTODo status=SUCCESS method=ToDoTest.AddNewTODo()[pri:0, instance:Testcases.ToDoTest@d737b89] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.ToDoTest@5afa3c9]" started-at="2024-12-11T13:41:56 EET" name="setup" finished-at="2024-12-11T13:41:56 EET" duration-ms="805" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.ToDoTest@d737b89]" started-at="2024-12-11T14:31:36 EET" name="setup" finished-at="2024-12-11T14:31:37 EET" duration-ms="766" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ableToDeleteToDo()[pri:0, instance:Testcases.ToDoTest@5afa3c9]" started-at="2024-12-11T13:41:57 EET" name="ableToDeleteToDo" description=" User are able to delete the TODO card successfully" finished-at="2024-12-11T13:42:01 EET" duration-ms="4417" status="PASS">
+        <test-method signature="ableToDeleteToDo()[pri:0, instance:Testcases.ToDoTest@d737b89]" started-at="2024-12-11T14:31:37 EET" name="ableToDeleteToDo" description=" User are able to delete the TODO card successfully" finished-at="2024-12-11T14:31:43 EET" duration-ms="6566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ableToDeleteToDo -->
-        <test-method is-config="true" signature="shutdown(org.testng.ITestResult)[pri:0, instance:Testcases.ToDoTest@5afa3c9]" started-at="2024-12-11T13:42:01 EET" name="shutdown" finished-at="2024-12-11T13:42:02 EET" duration-ms="813" status="PASS">
+        <test-method is-config="true" signature="shutdown(org.testng.ITestResult)[pri:0, instance:Testcases.ToDoTest@d737b89]" started-at="2024-12-11T14:31:43 EET" name="shutdown" finished-at="2024-12-11T14:31:44 EET" duration-ms="835" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ableToDeleteToDo status=SUCCESS method=ToDoTest.ableToDeleteToDo()[pri:0, instance:Testcases.ToDoTest@5afa3c9] output={null}]]]>
+                <![CDATA[[TestResult name=ableToDeleteToDo status=SUCCESS method=ToDoTest.ableToDeleteToDo()[pri:0, instance:Testcases.ToDoTest@d737b89] output={null}]]]>
               </value>
             </param>
           </params>
@@ -47,38 +47,38 @@
         </test-method> <!-- shutdown -->
       </class> <!-- Testcases.ToDoTest -->
       <class name="Testcases.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.LoginTest@72cc7e6f]" started-at="2024-12-11T13:41:46 EET" name="setup" finished-at="2024-12-11T13:41:48 EET" duration-ms="1450" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.LoginTest@28261e8e]" started-at="2024-12-11T14:31:18 EET" name="setup" finished-at="2024-12-11T14:31:19 EET" duration-ms="1569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="UserCanLogin()[pri:0, instance:Testcases.LoginTest@72cc7e6f]" started-at="2024-12-11T13:41:48 EET" name="UserCanLogin" description="User are able to login with a valid values" finished-at="2024-12-11T13:41:50 EET" duration-ms="2329" status="PASS">
+        <test-method signature="UserCanLogin()[pri:0, instance:Testcases.LoginTest@28261e8e]" started-at="2024-12-11T14:31:19 EET" name="UserCanLogin" description="User are able to login with a valid values" finished-at="2024-12-11T14:31:22 EET" duration-ms="2613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanLogin -->
-        <test-method is-config="true" signature="shutdown(org.testng.ITestResult)[pri:0, instance:Testcases.LoginTest@72cc7e6f]" started-at="2024-12-11T13:41:50 EET" name="shutdown" finished-at="2024-12-11T13:41:51 EET" duration-ms="825" status="PASS">
+        <test-method is-config="true" signature="shutdown(org.testng.ITestResult)[pri:0, instance:Testcases.LoginTest@28261e8e]" started-at="2024-12-11T14:31:22 EET" name="shutdown" finished-at="2024-12-11T14:31:23 EET" duration-ms="935" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UserCanLogin status=SUCCESS method=LoginTest.UserCanLogin()[pri:0, instance:Testcases.LoginTest@72cc7e6f] output={null}]]]>
+                <![CDATA[[TestResult name=UserCanLogin status=SUCCESS method=LoginTest.UserCanLogin()[pri:0, instance:Testcases.LoginTest@28261e8e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.LoginTest@72cc7e6f]" started-at="2024-12-11T13:41:51 EET" name="setup" finished-at="2024-12-11T13:41:52 EET" duration-ms="655" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.LoginTest@28261e8e]" started-at="2024-12-11T14:31:23 EET" name="setup" finished-at="2024-12-11T14:31:24 EET" duration-ms="845" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ableToLogOut()[pri:0, instance:Testcases.LoginTest@72cc7e6f]" started-at="2024-12-11T13:41:52 EET" name="ableToLogOut" description=" User are able to logout from his account" finished-at="2024-12-11T13:41:55 EET" duration-ms="2826" status="PASS">
+        <test-method signature="ableToLogOut()[pri:0, instance:Testcases.LoginTest@28261e8e]" started-at="2024-12-11T14:31:24 EET" name="ableToLogOut" description=" User are able to logout from his account" finished-at="2024-12-11T14:31:29 EET" duration-ms="4790" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ableToLogOut -->
-        <test-method is-config="true" signature="shutdown(org.testng.ITestResult)[pri:0, instance:Testcases.LoginTest@72cc7e6f]" started-at="2024-12-11T13:41:55 EET" name="shutdown" finished-at="2024-12-11T13:41:55 EET" duration-ms="835" status="PASS">
+        <test-method is-config="true" signature="shutdown(org.testng.ITestResult)[pri:0, instance:Testcases.LoginTest@28261e8e]" started-at="2024-12-11T14:31:29 EET" name="shutdown" finished-at="2024-12-11T14:31:30 EET" duration-ms="886" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ableToLogOut status=SUCCESS method=LoginTest.ableToLogOut()[pri:0, instance:Testcases.LoginTest@72cc7e6f] output={null}]]]>
+                <![CDATA[[TestResult name=ableToLogOut status=SUCCESS method=LoginTest.ableToLogOut()[pri:0, instance:Testcases.LoginTest@28261e8e] output={null}]]]>
               </value>
             </param>
           </params>

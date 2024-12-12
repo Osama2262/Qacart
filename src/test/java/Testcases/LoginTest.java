@@ -5,10 +5,13 @@ import Base.BaseTest;
 import Pages.LoginPage;
 import Pages.NewToDoPage;
 import Pages.ToDoPage;
+import config.EndPoint;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import utils.ConfigUtils;
+
 @Feature("Auth Features")
 public class LoginTest extends BaseTest {
     @Story("Login function")
@@ -33,5 +36,7 @@ public class LoginTest extends BaseTest {
         newToDoPage.load_NewToDoPage();
         ToDoPage toDoPage = new ToDoPage(getDriver());
         toDoPage.logout_button();
+        String current = toDoPage.get_CurrentURL();
+        Assert.assertEquals(current, ConfigUtils.getInstance().mainURL() +"/login");
     }
 }
